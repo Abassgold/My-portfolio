@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background: #1c4b82;
+}
+#navbarNav{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+}
+#intro{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5rem;
+}
+ 
+#icon{
+     position: fixed;
+     right: 24%;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    padding: 20px 0;
+    background: #082032;
+}
+footer{
+    background:  #1c4b82;;
+    padding: 2rem 0px;
+    color: aliceblue;
+    font-weight: 600;
+}
+.rounded-circle{
+    position: relative;
+    height: 20rem;
+    width: 20rem;
+    border: 5px solid salmon;
+}
+.rounded-circle img{
+    position: absolute;
+    top: -1px;
+    height: 19.5rem;
+    width: 19.5rem;
+    border-radius: 50%;
+    object-fit: contain;
+}
