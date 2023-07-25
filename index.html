@@ -18,13 +18,12 @@
       <a class="navbar-brand justify-content-end" href="#">
         <h1>Azeez Abass</h1>
       </a>
-        <a href="" class="btn me-0 border-0" onclick="ChangeBgwhite()" id="day">
-          <img src="image/light.png" alt="" class="change">
-        </a>
-        <a href="" class="btn me-0 border-0" onclick="ChangeBgwhite()" id="night">
-          <img src="image/night.png" alt="" class="change">
-        </a>
-      
+      <button href="" class="btn me-0 border-0" onclick="ChangeBgwhite()" id="day">
+        <img src="image/light.png" alt="" class="change">
+      </button>
+      <button href="" class="btn me-0 border-0" onclick="ChangeBgnight()" id="night">
+        <img src="image/night.png" alt="" class="change">
+      </button>
       <!-- <div id="icon"><a href=""><?xml version="1.0" encoding="UTF-8"?><svg width="25" height="25" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 37C31.1797 37 37 31.1797 37 24C37 16.8203 31.1797 11 24 11C16.8203 11 11 16.8203 11 24C11 31.1797 16.8203 37 24 37Z" fill="#fff" stroke="#fff" stroke-width="2" stroke-linejoin="round"/><path d="M24 6C25.3807 6 26.5 4.88071 26.5 3.5C26.5 2.11929 25.3807 1 24 1C22.6193 1 21.5 2.11929 21.5 3.5C21.5 4.88071 22.6193 6 24 6Z" fill="#fff"/><path d="M38.5 12C39.8807 12 41 10.8807 41 9.5C41 8.11929 39.8807 7 38.5 7C37.1193 7 36 8.11929 36 9.5C36 10.8807 37.1193 12 38.5 12Z" fill="#fff"/><path d="M44.5 26.5C45.8807 26.5 47 25.3807 47 24C47 22.6193 45.8807 21.5 44.5 21.5C43.1193 21.5 42 22.6193 42 24C42 25.3807 43.1193 26.5 44.5 26.5Z" fill="#fff"/><path d="M38.5 41C39.8807 41 41 39.8807 41 38.5C41 37.1193 39.8807 36 38.5 36C37.1193 36 36 37.1193 36 38.5C36 39.8807 37.1193 41 38.5 41Z" fill="#fff"/><path d="M24 47C25.3807 47 26.5 45.8807 26.5 44.5C26.5 43.1193 25.3807 42 24 42C22.6193 42 21.5 43.1193 21.5 44.5C21.5 45.8807 22.6193 47 24 47Z" fill="#fff"/><path d="M9.5 41C10.8807 41 12 39.8807 12 38.5C12 37.1193 10.8807 36 9.5 36C8.11929 36 7 37.1193 7 38.5C7 39.8807 8.11929 41 9.5 41Z" fill="#fff"/><path d="M3.5 26.5C4.88071 26.5 6 25.3807 6 24C6 22.6193 4.88071 21.5 3.5 21.5C2.11929 21.5 1 22.6193 1 24C1 25.3807 2.11929 26.5 3.5 26.5Z" fill="#fff"/><path d="M9.5 12C10.8807 12 12 10.8807 12 9.5C12 8.11929 10.8807 7 9.5 7C8.11929 7 7 8.11929 7 9.5C7 10.8807 8.11929 12 9.5 12Z" fill="#fff"/></svg></a></div> -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,57 +47,119 @@
       </div>
     </div>
   </nav>
-<div id="changeBg">
-   <section class="text-center text-light display-1" id="intro">
-    Welcome!
-  </section>
+  <div id="changeBg" style="color: whitesmoke;">
+    <section class="text-center  display-1" id="intro">
+      Welcome!
+    </section>
 
-  <section class=" position-relative">
-    <div class=" rounded-circle mx-auto">
-      <img src="image/Abass.jpg" alt="" class="" height="100">
-    </div>
-  </section>
-  
-  <section class="About">
-    <div class="text-1 text-center text-white mx-auto col-md-7  col-10" id="About">
-      <h1>I am Abass</h1>
-      <p class="animate__animated animate__shakeX">I beleive great things can be built and achieved throught technology.
-        I was always fond of process behind bilding websites and apps but quite never tried learning untill 2021. 
-        Now I love to work on web dev projects and always looking for interesting projects and people to collaborate with!
-      </p><br>
-      <small>Abasskola10@yahoo.com</small>
-      <div class="text-center">
-        <h1 class="">Contact</h1>
+    <section class=" position-relative">
+      <div class=" rounded-circle mx-auto">
+        <img src="image/Abass.jpg" alt="" class="" height="100">
       </div>
-      <form>
-        <!-- Email input -->
-        <div class="form-floating mb-2">
-          <input type="text" id="form1Example1" class="form-control text-white" placeholder="--Email--"
-            style="background: none;" />
-          <label class="form-label text-white" for="form1Example1">__Your name__</label>
-        </div>
-        <!-- Password input -->
-        <div class="form-floating mb-2">
-          <input type="email" id="form1Example2" class="form-control text-white" placeholder="--Email--"
-            style="background: none;" />
-          <label class="form-label text-white" for="form1Example2">Example@gmail.com</label>
-        </div>
-        <!-- text area -->
-        <div class="form-outline mb-2">
-          <textarea class="form-control text-white" id="form4Example3" rows="4" style="background: none;"
-            placeholder="Your message"></textarea>
-          <label class="form-label text-white" for="form4Example3">Message.....</label>
-        </div>
+    </section>
 
-        <!-- Submit button -->
-        <div class="w-25" style="margin-right: auto;">
-          <button type="submit" class="btn btn-primary btn-block text-end" style="align-self: flex-end;">Send</button>
+    <section class="About">
+      <div class="text-1 text-center  mx-auto col-md-7  col-10" id="About">
+        <h1>I am Abass</h1>
+        <p class="animate__animated animate__shakeX">I beleive great things can be built and achieved throught
+          technology.
+          I was always fond of process behind bilding websites and apps but quite never tried learning untill 2021.
+          Now I love to work on web dev projects and always looking for interesting projects and people to collaborate
+          with!
+        </p><br>
+        <small>Abasskola10@yahoo.com</small><br>
+        <div class="">
+          <h1 class="" id="skills">Skills</h1>
+          <div class="row justify-content-center">
+            <div class=" col-md-6 col-11 mb-4">
+              <div class="shadow">
+                <div class="d-flex">
+                  <img src="image/javascript.png" alt="" class="img">
+                  <h4>FrontEnd (HTML,CSS,JS)</h4>
+                </div>
+              </div>
+              <div class="clip" id="clip1"></div>
+            </div>
+            <div class="col-md-6 col-11 mb-4">
+              <div class="shadow">
+                <div class="d-flex">
+                  <img src="image/node-js.png" alt="" class="img">
+                  <h4>Backend/Nodejs</h4>
+                </div>
+              </div>
+              <div class="clip" id="clip2"></div>
+            </div>
+            <div class="col-md-6 col-11 mb-4">
+              <div class="shadow">
+                <div class="d-flex">
+                  <img src="image/react.png" alt="" class="img">
+                  <h4>React JS</h4>
+                </div>
+              </div>
+              <div class="clip"></div>
+            </div>
+            <div class="col-md-6 col-11 mb-4">
+              <div class="shadow">
+                <div class="d-flex">
+                  <img src="image/git.png" alt="" class="img">
+                  <h4>Git/GitHub</h4>
+                  <div class="clip" id="clip3"></div>
+                </div>
+              </div>
+              <div class="clip"></div>
+            </div>
+            <div class="col-md-6 col-11 mb-4">
+              <div class="shadow">
+                <div class="d-flex">
+                  <img src="image/firebase.png" alt="" class="img">
+                  <h4>Firebase</h4>
+                </div>
+              </div>
+              <div class="clip" id="clip4"></div>
+            </div>
+            <div class="col-md-6 col-11 mb-4">
+              <div class="shadow">
+                <div class="d-flex">
+                  <img src="image/java.png" alt="" class="img">
+                  <h4>Java</h4>
+                </div>
+              </div>
+              <div class="clip" id="clip5"></div>
+            </div>
+          </div>
         </div>
-        
-      </form>
-  </section>
-</div>
- 
+        <div class="text-center">
+          <h1 class="">Contact</h1>
+        </div>
+        <form>
+          <!-- Email input -->
+          <div class="form-floating mb-2">
+            <input type="text" id="form1Example1" class="form-control" placeholder="--Email--"
+              style="background: none;" />
+            <label class="form-label " for="form1Example1">__Your name__</label>
+          </div>
+          <!-- Password input -->
+          <div class="form-floating mb-2">
+            <input type="email" id="form1Example2" class="form-control" placeholder="--Email--"
+              style="background: none;" />
+            <label class="form-label" for="form1Example2">Example@gmail.com</label>
+          </div>
+          <!-- text area -->
+          <div class="form-floating  text-start mb-2">
+            <textarea class="form-control h-25" id="form4Example3" rows="4" style="background: none;"
+              placeholder="Your message"></textarea>
+            <label class="form-label" for="form4Example3">Message.....</label>
+          </div>
+
+          <!-- Submit button -->
+          <div class="text-end">
+            <button type="submit" class="btn btn-primary btn-block text-end" style="align-self: flex-end;">Send</button>
+          </div>
+
+        </form>
+    </section>
+  </div>
+
   <footer>
     <h1 class="text-center mb-3">Let's Collaborate!</h1>
     <div class=" text-center mb-3">
@@ -158,4 +219,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>

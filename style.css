@@ -30,9 +30,27 @@ p{
 #night{
     display: none;
 }
+#skills{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.shadow{
+    box-shadow: 20px 10px 100px 10px white;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+.img{
+    width: 30px;
+    margin-right: 10px;
+}
 #changeBg{
     padding: 20px 0;
     background: #082032;
+}
+.clip{
+    height: 2px;
+    border-radius: 10%;
+    background: white;
 }
 footer{
     background:  #1c4b82;;
