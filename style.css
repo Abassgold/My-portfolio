@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Pacifico&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
 }
 nav{
     background: #1c4b82;
 }
+
+#myName{
+    font-size: 50px;
+}
+p{
+    font-size: 1.5rem;
+}
+
 #navbarNav{
     font-size: 20px;
     font-weight: 500;
@@ -30,7 +41,7 @@ p{
 #night{
     display: none;
 }
-#skills{
+#skills, .contact{
     text-decoration: underline;
     text-underline-offset: 5px;
 }
@@ -49,8 +60,25 @@ p{
 }
 .clip{
     height: 2px;
-    border-radius: 10%;
-    background: white;
+    border-radius: 10px;
+}
+#clip1{
+    background: linear-gradient(to right, white 95%,  #082032 5%);
+}
+#clip2{
+    background: linear-gradient(to right, white 50%,  #082032 50%);
+}
+#clip{
+    background: linear-gradient(to right, white 60%,  #082032 40%);
+}
+#clip3{
+    background: linear-gradient(to right, white 70%,  #082032 30%);
+}
+#clip4{
+    background: linear-gradient(to right, white 65%,  #082032 35%);
+}
+#clip5{
+    background: linear-gradient(to right, white 30%,  #082032 70%);
 }
 footer{
     background:  #1c4b82;;

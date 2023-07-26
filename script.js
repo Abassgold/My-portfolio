@@ -4,12 +4,14 @@ const ChangeBgwhite = () => {
     console.log("abass");
     day.style.display = "none"
     night.style.display = "block"
-    document.getElementById("clip").style.backgroundColor = " #1c4b82"
-    document.getElementById("clip1").style.backgroundColor = " #1c4b82"
-    document.getElementById("clip2").style.backgroundColor = " #1c4b82"
-    document.getElementById("clip3").style.backgroundColor = " #1c4b82"
-    document.getElementById("clip4").style.backgroundColor = " #1c4b82"
-    document.getElementById("clip5").style.backgroundColor = " #1c4b82"
+    document.getElementById("clip").style.backgroundColor = "#082032"
+    document.getElementById("clip1").style.backgroundColor = "#082032"
+    document.getElementById("clip2").style.backgroundColor = "#082032"
+    document.getElementById("clip3").style.backgroundColor = "#082032"
+    document.getElementById("clip4").style.backgroundColor = "#082032"
+    document.getElementById("clip5").style.backgroundColor = "#082032"
+
+    
 }
 
 const ChangeBgnight = () => {
