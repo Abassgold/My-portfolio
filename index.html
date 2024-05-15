@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
   <head>
     <script src="js/bootstrap.js"></script>
@@ -16,7 +17,14 @@
   <nav class="navbar navbar-expand-md bg-body-tertiary navbar-dark fixed-top top-0 py-3 fs-bolder">
     <div class="container-xl">
       <a class="navbar-brand justify-content-end" href="#">
-        <h1 id="myName">Azeez Abass</h1>
+        <h1 id="myName">
+          <span>A</span>
+          <span>z</span>
+          <span>e</span>
+          <span>e</span>
+          <span>z</span>
+        </h1>
+
       </a>
       <button href="" class="btn me-0 border-0" onclick="ChangeBgwhite()" id="day">
         <img src="image/light.png" alt="" class="change">
@@ -35,13 +43,13 @@
             <a class="nav-link active" aria-current="page" href="#intro">About me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Links</a>
+            <a class="nav-link" href="#links">Links</a>
           </li>
         </ul>
       </div>
@@ -59,16 +67,15 @@
     </section>
 
     <section class="About">
-      <div class="text-1 text-center  mx-auto col-md-7  col-10" id="About">
-        <h1>I am Abass, A MEARN developer</h1>
-        <p style="font-family:  'Caveat', cursive;" class="mb-2 animate__animated animate__shakeX ">I beleive great
-          things can be built and achieved throught
-          technology.
-          I was always fond of process behind bilding websites and apps but quite never tried learning untill 2021.
-          Now I love to work on web dev projects and always looking for interesting projects and people to collaborate
-          with!
+      <div class="text-1 text-center  mx-auto col-md-7  col-10 animate__animate animate__bounce" id="About">
+        <h1>My name is Azeez Abass, A MEARN developer!</h1>
+        <p style="font-family:  'Caveat', cursive; font-size: 1.7rem; text-align: start;" class="mb-2 animate__animated animate__shakeX ">
+          l'm  a full-stack web developer based in Nigeria, working on both frontend and backend development projects. My skill set includes HTML, CSS, JavaScript React/Nextjs Nodejs, Express, and MongoDB.
+           I am passionate about creating modern and engaging web applications that provide great user experiences. 
+          I am actively seeking web developer roles and open to freelance projects.
+          lf youre Intereste collaborating or have any questions, please dont hesitate to get in touch!
         </p>
-        <small class=" fs-6 mb-5">Abasskola10@yahoo.com</small><br>
+        <a href='mailto:Abasskola10@yahoo.com' class=" fs-6 mb-5"><p style="font-size: 1rem;">Abasskola10@yahoo.com</p></a><br>
         <div class="">
           <h1 class="" id="skills">Skills</h1>
           <div class="row justify-content-center">
@@ -94,7 +101,7 @@
               <div class="shadow">
                 <div class="d-flex">
                   <img src="image/react.png" alt="" class="img">
-                  <h4>React JS</h4>
+                  <h4>React/NextJS</h4>
                 </div>
               </div>
               <div class="clip" id="clip"></div>
@@ -129,19 +136,35 @@
           </div>
         </div>
         <div class="">
-          <h1 class="" id="skills">Projects</h1>
+          <h1 class="" id="projects">Projects</h1>
           <div class="row justify-content-center">
-            <div class=" col-lg-6 col-md-10 col-11 mb-4">
+            <div class="col-lg-6 col-md-10 col-11 mb-4">
               <img src='https://i.im.ge/2024/03/14/RivMe1.Netninja.png' alt="" class=" img-fluid">
+              <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-top: 1rem;">
+                <a href=""><p class="goLive">Go Live</p></a>
+                <a href=""><p class="goLive">Source Code</p></a>
+              </div>
             </div>
             <div class=" col-lg-6 col-md-10 col-11 mb-4">
               <img src='https://i.im.ge/2024/03/14/RivMe1.Netninja.png' alt="" class=" img-fluid">
+              <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-top: 1rem;">
+                <a href=""><p class="goLive">Go Live</p></a>
+                <a href=""><p class="goLive">Source Code</p></a>
+              </div>
             </div>
             <div class=" col-lg-6 col-md-10 col-11 mb-4">
               <img src='https://i.im.ge/2024/03/14/RivMe1.Netninja.png' alt="" class=" img-fluid">
+              <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-top: 1rem;">
+                <a href=""><p class="goLive">Go Live</p></a>
+                <a href=""><p class="goLive">Source Code</p></a>
+              </div>
             </div>
             <div class=" col-lg-6 col-md-10 col-11 mb-4">
               <img src='https://i.im.ge/2024/03/14/RivMe1.Netninja.png' alt="" class=" img-fluid">
+              <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-top: 1rem;">
+                <a href=""><p class="goLive">Go Live</p></a>
+                <a href=""><p class="goLive">Source Code</p></a>
+              </div>
             </div>
           </div>
         </div>
@@ -177,7 +200,7 @@
     </section>
   </div>
 
-  <footer>
+  <footer id="links">
     <h1 class="text-center mb-3">Let's Collaborate!</h1>
     <div class=" text-center mb-3">
       2023 © All right Reserved <br>
